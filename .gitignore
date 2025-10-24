@@ -8,7 +8,10 @@ __pycache__/
 .env
 
 # data (raw/big)
-data/raw/
+data/raw/*
+!data/raw/
+!data/raw/all_beauty_reviews_10k.jsonl
+!data/raw/all_beauty_products_10k.csv
 data/external/
 data/build/binaries/
 *.zip
