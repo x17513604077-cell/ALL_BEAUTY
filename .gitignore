@@ -10,6 +10,7 @@ __pycache__/
 # data (raw/big)
 data/raw/
 data/external/
+data/build/binaries/
 *.zip
 *.gz
 *.tar
