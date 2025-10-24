@@ -48,3 +48,7 @@ app/frontend/dist/
 # misc
 .DS_Store
 coverage/
+
+# generated figures (vector SVG files are tracked separately)
+reports/figures/*.png
+reports/figures/base64/
