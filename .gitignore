@@ -1,0 +1,46 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# data (raw/big)
+data/raw/
+data/external/
+*.zip
+*.gz
+*.tar
+*.7z
+*.parquet
+*.feather
+*.npz
+*.npy
+*.h5
+*.sqlite
+*.db
+*.log
+
+# models & binaries
+*.onnx
+*.engine
+*.trt
+*.pt
+*.bin
+*.safetensors
+
+# notebooks & cache
+.ipynb_checkpoints/
+*.ipynb~*
+
+# node / frontend builds
+node_modules/
+app/frontend/node_modules/
+app/frontend/build/
+app/frontend/dist/
+
+# misc
+.DS_Store
+coverage/
